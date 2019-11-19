@@ -66,3 +66,12 @@ aside{
 .highlightTips {
   background-color: lightgreen;
 }
+
+.tip:hover {
+  background-color: mediumslateblue;
+  border:1px solid blue;
+}
+
+.locations__card:hover {
+  background-color: mediumturquoise;
+}
