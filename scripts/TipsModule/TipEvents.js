@@ -24,13 +24,13 @@ const addMouseOverEventListeners = () => {
         card.addEventListener(
             "mouseover",
             (theMouseOverEvent) => {
-                tip.classList.add("highlightFish")
+                card.classList.add("highlightFish")
             }
         )
 
 
-        tip.addEventListener("mouseout", theMouseOutEvent => {
-            tip.classList.remove("highlightFish")
+        card.addEventListener("mouseout", theMouseOutEvent => {
+            card.classList.remove("highlightFish")
         })
     }
 }
