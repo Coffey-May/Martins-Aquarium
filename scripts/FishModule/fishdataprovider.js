@@ -1,9 +1,9 @@
 const fishCollection = [
     {
         name: "cutefish",
-        species: "Goldfish",
-        location: "Atlantic",
-        length: "40 ft",
+        species: "Puffer",
+        location: "Brackish",
+        length: "3 ft",
         food: ["Flakes", "yums"],
         image: "../images/cutefish.jpg"
     },
@@ -13,7 +13,7 @@ const fishCollection = [
         location: "Brazil",
         length: "3 in",
         food: ["Flakes", "yums"],
-        image: "../images/cutefish.jpg"
+        image: "../images/blobby.jpg"
     },
     {
         name: "Beta",
@@ -21,7 +21,7 @@ const fishCollection = [
         location: "Brazil",
         length: "3 in",
         food: ["Flakes", "yums"],
-        image: "../images/cutefish.jpg"
+        image: "../images/beta.jpg"
     },
     {
         name: "cutefish",
@@ -37,7 +37,7 @@ const fishCollection = [
         location: "Brazil",
         length: "3 in",
         food: ["Flakes", "yums"],
-        image: "../images/cutefish.jpg"
+        image: "../images/blobby.jpg"
     },
     {
         name: "fishyboi",
@@ -45,6 +45,14 @@ const fishCollection = [
         location: "ponds",
         length: "3 miles",
         food: ["Flakes", "yums"],
+        image: "../images/beta.jpg"
+    },
+    {
+        name: "fishyguy",
+        species: "goldfish",
+        location: "tank",
+        length: "400 ft",
+        food: ["burgers", "yams"],
         image: "../images/cutefish.jpg"
     },
     {

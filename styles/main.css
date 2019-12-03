@@ -25,9 +25,23 @@ h1 {
     text-align: center;
 }
 nav {
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+  justify-content: space-between;
+    
 }
-.navTitle {
+
+.content {
+  display: flex;
+  flex-direction: ;
+}
+
+span {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+/* .navTitle {
   float: left;
 }
 .navBarDiv {
@@ -35,7 +49,7 @@ nav {
 }
 .content{
   display: flex;
-}
+} */
 
 img {
   max-width: 100%;
@@ -70,4 +84,11 @@ aside{
   flex-direction: row;
   flex-wrap: wrap;
 }
- 
+
+.fish {
+  flex-basis: 16%;  /* Make each child element the same width */
+  border: 1px dotted crimson;
+  padding: 1em;
+  margin: 0.5em;
+
+}
